@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -327,6 +328,44 @@
     drop-shadow(0 0 10px rgba(233,30,140,.8))
     drop-shadow(0 0 25px rgba(233,30,140,.4));
 }
+.flower-item{
+  animation: flowerSway 4s ease-in-out infinite;
+  transform-origin: bottom center;
+}
+
+.flower-item:nth-child(2){
+  animation-delay: .5s;
+}
+
+.flower-item:nth-child(3){
+  animation-delay: 1s;
+}
+
+.flower-item:nth-child(4){
+  animation-delay: 1.5s;
+}
+
+.flower-item:nth-child(5){
+  animation-delay: 2s;
+}
+
+.flower-item:nth-child(6){
+  animation-delay: 2.5s;
+}
+
+@keyframes flowerSway{
+  0%{
+    transform: rotate(-3deg);
+  }
+
+  50%{
+    transform: rotate(3deg);
+  }
+
+  100%{
+    transform: rotate(-3deg);
+  }
+}
 </style>
 </head>
 <body>
@@ -504,7 +543,7 @@ bima is proud of vivi today, tomorrow, and always.
     <span class="ornament"></span>
     <h2 class="gradient-text">you Are loved<br>beyond words</h2>
     <p class="closing-para">
-      no poem is long enough, no garden wide enough, no sky vast enough to hold the love I carry for you. You are not just someone I love — you are someone I choose, over and over, in every universe that ever was or will be.
+      no poem is long enough, no garden wide enough, no sky vast enough to hold the love I carry for you. You are not just someone I love you are someone I choose, over and over, in every universe that ever was or will be.
     </p>
     <p class="made-with-love" style="margin-top:40px;">Made with love, just for you 🌸</p>
     <span class="heart-pulse">💗</span>
